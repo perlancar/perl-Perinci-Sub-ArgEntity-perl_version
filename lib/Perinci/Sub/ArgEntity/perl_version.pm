@@ -10,7 +10,7 @@ use warnings;
 use Complete::Perl qw(complete_perl_version);
 
 sub complete_arg_val {
-    Complete::Riap::complete_perl_version(@_);
+    Complete::Perl::complete_perl_version(@_);
 }
 
 1;
